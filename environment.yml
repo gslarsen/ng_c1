@@ -1,7 +1,6 @@
 name: ng_c1
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.11
   - numpy
@@ -11,6 +10,7 @@ dependencies:
   - jupyter
   - ipykernel
   - ipywidgets
+  - ipympl
   - notebook
   - pip
   - pip:

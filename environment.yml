@@ -1,0 +1,17 @@
+name: ng_c1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - notebook
+  - pip
+  - pip:
+      - debugpy
